@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    
+    <!-- Circle background -->
+    <path
+        android:fillColor="@color/primary_pink_light"
+        android:pathData="M100,100m-80,0a80,80 0,1 1,160 0a80,80 0,1 1,-160 0" />
+    
+    <!-- Chart bars -->
+    <path
+        android:fillColor="@color/primary_purple_dark"
+        android:pathData="M60,130h15v30h-15z" />
+    <path
+        android:fillColor="@color/accent_purple"
+        android:pathData="M85,110h15v50h-15z" />
+    <path
+        android:fillColor="@color/accent_pink"
+        android:pathData="M110,90h15v70h-15z" />
+    <path
+        android:fillColor="@color/primary_pink_dark"
+        android:pathData="M135,70h15v90h-15z" />
+</vector>

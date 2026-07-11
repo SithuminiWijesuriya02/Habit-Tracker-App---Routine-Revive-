@@ -1,0 +1,32 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="80"
+    android:viewportHeight="80">
+
+  <!-- Background circle -->
+  <path
+      android:fillColor="@color/primary_green"
+      android:pathData="M40,5
+                          a35,35 0 1,0 0.0001,0" />
+
+  <!-- Heart shape -->
+  <path
+      android:fillColor="@color/white"
+      android:pathData="M40,25
+                          c-5,-8 -16,-8 -16,0
+                          c0,8 16,20 16,20
+                          s16,-12 16,-20
+                          c0,-8 -11,-8 -16,0z" />
+
+  <!-- Plus sign (horizontal) -->
+  <path
+      android:fillColor="@color/white"
+      android:pathData="M35,50h10v4h-10z" />
+
+  <!-- Plus sign (vertical) -->
+  <path
+      android:fillColor="@color/white"
+      android:pathData="M38,47h4v10h-4z" />
+
+</vector>
